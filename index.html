@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the web page -->
+    <title>Library Website</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header class="navbar">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4YvPwU4SWW_Je3NHR1iQv8kSA5dRikd1wKQ&s" alt="Library Logo">
+        </div>
+        <!-- Links to each section -->
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#trending">Trending Books</a>
+            <a href="#books">Search for Books</a>
+            <a href="#features">Our Features</a>
+            <a href="#about">About Us</a>
+        </nav>
+    </header>
+
+    <!-- Hero section for Home page -->
+    <section id="home" class="hero">
+        <h1>Welcome to the Pathari Sanishchare Book Club and Library</h1>
+        <p>Pathari Sanishchare Book Club was founded in 2076 BS with the vision of promoting reading culture in the community.</p>
+    </section>
+
+    <!-- Trending Books section -->
+    <section id="trending">
+        <h2>Trending Books</h2>
+        <div class="card-container">
+            <!-- Each book is displayed as a card -->
+            <div class="card">
+                <img src="https://cdn.kobo.com/book-images/1200d87a-ec1d-4651-826d-52afb86d10f1/1200/1200/False/rich-dad-poor-dad-10.jpg" alt="Rich Dad Poor Dad">
+                <h3>Rich Dad Poor Dad</h3>
+                <p>Author: John Doe</p>
+                <p>Genre: Self Development</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn2.penguin.com.au/covers/original/9781473565425.jpg" alt="Atomic Habits">
+                <h3>Atomic Habits</h3>
+                <p>Author: Jane Smith</p>
+                <p>Genre: Mystery</p>
+            </div>
+            <div class="card">
+                <img src="https://en.frenchpdf.com/wp-content/uploads/2020/04/think_and_grow_rich_book.jpg" alt="Think and Grow Rich">
+                <h3>Think and Grow Rich</h3>
+                <p>Author: Napoleon Hill</p>
+                <p>Genre: Self-growth</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn2.penguin.com.au/covers/original/9781473565425.jpg" alt="Atomic Habits">
+                <h3>Psychology of money</h3>
+                <p>Author: Jane Smith</p>
+                <p>Genre: Mystery</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn2.penguin.com.au/covers/original/9781473565425.jpg" alt="Atomic Habits">
+                <h3>Atomic Habits</h3>
+                <p>Author: Jane Smith</p>
+                <p>Genre: Mystery</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn2.penguin.com.au/covers/original/9781473565425.jpg" alt="Atomic Habits">
+                <h3>Atomic Habits</h3>
+                <p>Author: Jane Smith</p>
+                <p>Genre: Mystery</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn2.penguin.com.au/covers/original/9781473565425.jpg" alt="Atomic Habits">
+                <h3>Atomic Habits</h3>
+                <p>Author: Jane Smith</p>
+                <p>Genre: Mystery</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn2.penguin.com.au/covers/original/9781473565425.jpg" alt="Atomic Habits">
+                <h3>Atomic Habits</h3>
+                <p>Author: Jane Smith</p>
+                <p>Genre: Mystery</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn2.penguin.com.au/covers/original/9781473565425.jpg" alt="Atomic Habits">
+                <h3>Atomic Habits</h3>
+                <p>Author: Jane Smith</p>
+                <p>Genre: Mystery</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books section -->
+    <section id="books">
+        <h2>Books</h2>
+        <input type="text" id="searchInput" placeholder="Search for a book...">
+        <ul id="bookList" class="hidden"></ul>      
+        
+       
+    </section>
+
+    <!-- Features section -->
+    <section id="features">
+        <h2>Our Features</h2>
+        <p> We offer free membership to everyone interested.</p>
+        <p> No charges for borrowing books.</p>
+        <p> Indoor games like chess, ludo for refreshment.</p>
+        <p> Periodic free writing contests with prizes.</p>
+        <p> Exposure to authors and other intellectuals.</p>
+    </section>
+
+    <!-- About Us section -->
+    <section id="about">
+        <h2>Contact Us</h2>
+        <p>Email: sirjanghimire999@gmail.com</p>
+        <p>Phone: 9762955625</p>
+        <p>Address: Pathari Sanischare 8, Morang, Sombare</p>
+        <!-- Button to show an alert message when clicked -->
+        <button id="messageButton">Click to Learn More</button>
+    </section>
+
+    <!-- Footer section with copyright -->
+    <footer>
+        <p>&copy; 2024 Library Website. All rights reserved.</p>
+    </footer>
+
+    <!-- Linking the external JavaScript file -->
+    <script src="web.js"></script>
+</body>
+</html>
